@@ -39,7 +39,8 @@
 
   <h2 class="sec">🖼️ Screenshots</h2>
   <div class="shots">
- 
+ <img width="265" height="572" alt="image" src="https://github.com/user-attachments/assets/848fe367-3516-413b-a398-3b2efb7ba6a0" />
+
 
 
   </div>
