@@ -1,4 +1,3 @@
-<!doctype html>
   <h1>🎮 تطبيقه</h1>
   <h2>PlayStation Cafe Management App</h2>
   <p>A simple mobile ERP for PlayStation cafes: manage rooms, run sessions, add drinks, checkout, and track daily and monthly income.</p>
