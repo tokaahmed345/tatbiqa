@@ -1,11 +1,10 @@
 
-
-
-<main class="wrap">
-
+<header class="hero">
+  <h1>🎮 تطبيقه</h1>
+</header>
   <h2 class="sec">📖 About</h2>
   <p>
-    <b>🎮 تطبيقه</b> helps small PlayStation cafe owners run their business from one phone.
+    <b> تطبيقه</b> helps small PlayStation cafe owners run their business from one phone.
     The owner creates rooms, starts a session, and adds drinks while customers play.
     At the end, <b>Checkout</b> gives a final invoice (play time + orders = total),
     and the Dashboard updates automatically.
