@@ -1,56 +1,6 @@
 <!doctype html>
 <html lang="en">
 
-<title>تطبيقه | PlayStation Cafe Manager</title>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
-<style>
-  :root {
-    --bg: #0d1117; --card: #161b22; --border: #30363d;
-    --text: #e6edf3; --muted: #8b949e;
-    --accent: #3b82f6; --accent2: #8b5cf6; --green: #22c55e; --orange: #f97316;
-  }
-  @media (prefers-color-scheme: light) {
-    :root { --bg: #f6f8fa; --card: #ffffff; --border: #d0d7de; --text: #1f2328; --muted: #656d76; }
-  }
-  * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--text); font-family: "Inter", "Cairo", system-ui, sans-serif; line-height: 1.7; }
-  .wrap { max-width: 980px; margin: 0 auto; padding: 0 20px 60px; }
-  .hero { text-align: center; padding: 70px 20px 50px; background: linear-gradient(135deg, var(--accent), var(--accent2)); color: #fff; }
-  .hero h1 { font-family: "Cairo", sans-serif; font-size: 3.2rem; margin: 0; font-weight: 800; }
-  .hero h2 { margin: 6px 0 14px; font-weight: 600; font-size: 1.3rem; opacity: .95; }
-  .hero p { max-width: 640px; margin: 0 auto 22px; opacity: .95; }
-  .badges { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
-  .badge { background: rgba(255,255,255,.18); border: 1px solid rgba(255,255,255,.35); padding: 5px 14px; border-radius: 999px; font-size: .85rem; font-weight: 600; }
-  h2.sec { font-size: 1.6rem; margin: 48px 0 16px; padding-bottom: 8px; border-bottom: 2px solid var(--border); }
-  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
-  .card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 18px; }
-  .card .ico { font-size: 1.6rem; }
-  .card h3 { margin: 6px 0 4px; font-size: 1.05rem; }
-  .card p { margin: 0; color: var(--muted); font-size: .92rem; }
-  table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 12px; overflow: hidden; border: 1px solid var(--border); }
-  th, td { padding: 11px 14px; text-align: left; border-bottom: 1px solid var(--border); font-size: .93rem; }
-  th { background: rgba(59,130,246,.12); }
-  tr:last-child td { border-bottom: none; }
-  pre { background: #010409; color: #e6edf3; padding: 16px; border-radius: 12px; overflow-x: auto; border: 1px solid var(--border); font-size: .9rem; }
-  code { font-family: ui-monospace, Consolas, monospace; }
-  p code, li code { background: rgba(127,127,127,.2); padding: 2px 6px; border-radius: 6px; }
-  .flow { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
-  .step { background: var(--card); border: 1px solid var(--border); padding: 9px 16px; border-radius: 999px; font-weight: 600; font-size: .9rem; }
-  .arrow { color: var(--muted); }
-  .rules li { margin-bottom: 8px; }
-  .note { background: rgba(249,115,22,.1); border: 1px solid var(--orange); border-radius: 12px; padding: 14px 18px; }
-  .shots { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; }
-  .shot { width: 190px; height: 380px; border: 2px dashed var(--border); border-radius: 22px; display: flex; align-items: center; justify-content: center; color: var(--muted); text-align: center; font-size: .85rem; padding: 10px; }
-  .shots img { width: 190px; border-radius: 22px; border: 1px solid var(--border); }
-  .two { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
-  ul.clean { padding-left: 20px; }
-  footer { text-align: center; color: var(--muted); padding: 30px 0 0; border-top: 1px solid var(--border); margin-top: 50px; }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-</style>
-</head>
-<body>
-
 <header class="hero">
   <h1>🎮 تطبيقه</h1>
   <h2>PlayStation Cafe Management App</h2>
