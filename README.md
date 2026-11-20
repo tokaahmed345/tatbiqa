@@ -19,13 +19,8 @@
   .wrap { max-width: 980px; margin: 0 auto; padding: 0 20px 60px; }
 
   /* Hero: plain, no gradient */
-  .hero { text-align: center; padding: 64px 20px 44px; background: var(--hero); border-bottom: 1px solid var(--border); }
+  .hero { text-align: left; max-width: 980px; margin: 0 auto; padding: 48px 20px 0; }
   .hero h1 { font-family: "Cairo", sans-serif; font-size: 3rem; margin: 0; font-weight: 800; }
-  .hero h2 { margin: 6px 0 14px; font-weight: 600; font-size: 1.25rem; color: var(--muted); }
-  .hero p { max-width: 640px; margin: 0 auto 22px; color: var(--muted); }
-  .badges { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
-  .badge { background: var(--card); border: 1px solid var(--border); padding: 5px 14px; border-radius: 999px; font-size: .85rem; font-weight: 600; }
-  .badge::before { content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); margin-right: 8px; }
 
   h2.sec { font-size: 1.5rem; margin: 48px 0 16px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
   .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
@@ -58,15 +53,6 @@
 
 <header class="hero">
   <h1>🎮 تطبيقه</h1>
-  <h2>PlayStation Cafe Management App</h2>
-  <p>A simple mobile ERP for PlayStation cafes: manage rooms, run sessions, add drinks, checkout, and track daily and monthly income.</p>
-  <div class="badges">
-    <span class="badge">Flutter</span>
-    <span class="badge">Dart</span>
-    <span class="badge">Hive (Local DB)</span>
-    <span class="badge">Firebase (Subscription)</span>
-    <span class="badge">MVP v1.0</span>
-  </div>
 </header>
 
 <main class="wrap">
