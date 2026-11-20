@@ -1,10 +1,10 @@
 
 <header class="hero">
-  <h1>🎮 تطبيقه</h1>
+  <h1>🎮 Tatbiqa</h1>
 </header>
   <h2 class="sec">📖 About</h2>
   <p>
-    <b> تطبيقه</b> helps small PlayStation cafe owners run their business from one phone.
+    <b> Tatbiqa</b> helps small PlayStation cafe owners run their business from one phone.
     The owner creates rooms, starts a session, and adds drinks while customers play.
     At the end, <b>Checkout</b> gives a final invoice (play time + orders = total),
     and the Dashboard updates automatically.
@@ -82,6 +82,13 @@ Final total  = Play cost + Products</code></pre>
   </div>
 
 
+
+  <h2 class="sec">👩‍💻 Author</h2>
+  <p>
+    <b>Toka Ahmed Elsharkawy</b> — Flutter Developer<br />
+    <a href="https://github.com/YOUR_USERNAME">GitHub</a> •
+    <a href="https://www.linkedin.com/in/YOUR_LINKEDIN">LinkedIn</a>
+  </p>
 
   <footer>Made with ❤️ using Flutter</footer>
 </main>
