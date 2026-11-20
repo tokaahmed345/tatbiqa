@@ -39,11 +39,9 @@
 
   <h2 class="sec">🖼️ Screenshots</h2>
   <div class="shots">
-    <!-- Replace each placeholder with: <img src="docs/screenshots/home.png" alt="Home" /> -->
-    <div class="shot">Home<br />docs/screenshots/home.png</div>
-    <div class="shot">Room Details<br />docs/screenshots/details.png</div>
-    <div class="shot">Checkout<br />docs/screenshots/checkout.png</div>
-    <div class="shot">Dashboard<br />docs/screenshots/dashboard.png</div>
+ 
+
+
   </div>
 
   <h2 class="sec">🧮 Calculation Rules</h2>
@@ -86,8 +84,7 @@ Final total  = Play cost + Products</code></pre>
   <h2 class="sec">👩‍💻 Author</h2>
   <p>
     <b>Toka Ahmed Elsharkawy</b> — Flutter Developer<br />
-    <a href="https://github.com/YOUR_USERNAME">GitHub</a> •
-    <a href="https://www.linkedin.com/in/YOUR_LINKEDIN">LinkedIn</a>
+
   </p>
 
   <footer>Made with ❤️ using Flutter</footer>
