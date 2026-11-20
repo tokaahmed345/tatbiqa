@@ -81,12 +81,7 @@ Final total  = Play cost + Products</code></pre>
     <div class="card"><h3>SessionProduct</h3><p>session id, product name, unit price, quantity, total</p></div>
   </div>
 
-  <h2 class="sec">👩‍💻 Author</h2>
-  <p>
-    <b>Toka Ahmed Elsharkawy</b> — Flutter Developer<br />
-    <a href="https://github.com/YOUR_USERNAME">GitHub</a> •
-    <a href="https://www.linkedin.com/in/YOUR_LINKEDIN">LinkedIn</a>
-  </p>
+
 
   <footer>Made with ❤️ using Flutter</footer>
 </main>
